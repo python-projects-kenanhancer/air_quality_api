@@ -2,13 +2,21 @@
 
 FastAPI RESTful API for transforming and analyzing SEDAC's Global Annual PM2.5 air quality data, featuring CRUD operations, filtering, statistics, normalization, and Docker containerization.
 
+
+## Dataset Overview:
+**Global Annual PM2.5 Grids** dataset provided by SEDAC. This dataset contains information on PM2.5 (particulate matter) air pollution levels collected from various satellite and observation sources.
+https://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-gwr-pm2-5-modis-misr-seawifs-viirs-aod-v5-gl-04
+
 ![Air Quality API](./images/image1.png)
 
-# Data Exploration Jupyter Notebook Images
+## Downloading **Global Annual PM2.5 Grids** Dataset
+![Air Quality API](./images/image5.png)
+
+## Data Exploration Jupyter Notebook Images
 ![Data Exploration 1](./images/image2.png)
 ![Data Exploration 2](./images/image3.png)
 
-# Bulk Insert of Parquet Data into PostgreSQL with Sampling
+## Bulk Insert of Parquet Data into PostgreSQL with Sampling
 > It may take 10 mins or more.
 ![Bulk Insert of Parquet Data into PostgreSQL with Sampling](./images/image4.png)
 
